@@ -1,3 +1,10 @@
 /*Queries that provide answers to the questions from all projects.*/
 
-SELECT * from animals WHERE name = 'Luna';
+SELECT * FROM animals WHERE name LIKE '%mon';
+SELECT * from animals WHERE date_of_birth BETWEEN '2016-01-01' AND '2019-12-31';
+SELECT * from animals WHERE neutered IS TRUE and escape_attempts < 3;
+SELECT date_of_birth FROM animals WHERE name IN ('Agumon', 'Pikachu');
+SELECT * FROM animals WHERE weight_kg > 10.0;
+SELECT * FROM animals WHERE neutered = TRUE;
+SELECT * FROM animals WHERE name NOT IN ('Gabumon');
+SELECT * FROM animals WHERE weight_kg BETWEEN '10.4' AND '17.3';

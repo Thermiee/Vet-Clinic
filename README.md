@@ -1,6 +1,6 @@
 # Vet Clinic
 
-> A relational database to create the initial data structure for a vet clinic
+> A relational database to create the initial data structure for a vet clinic.
 
 ## Getting Started
 

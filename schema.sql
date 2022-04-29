@@ -13,7 +13,7 @@ CREATE TABLE animals (
     weight_kg FLOAT
 );
 
-ALTER TABLE animals ADD species varchar(100);
+ALTER TABLE animals ADD species varchar(255);
 
 CREATE TABLE owners (
     id SERIAL PRIMARY KEY,

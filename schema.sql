@@ -1,8 +1,16 @@
 /* Database schema to keep the structure of entire database. */
 
-DROP TABLE IF EXISTS animals;
-DROP TABLE IF EXISTS owners;
-DROP TABLE IF EXISTS species;
+
+DROP TABLE IF EXISTS 
+animals,
+owners,
+species,
+vets,
+visits,
+species,
+specialization
+
+CASCADE;
 
 CREATE TABLE animals (
     id SERIAL PRIMARY KEY,

@@ -18,7 +18,7 @@ ALTER TABLE animals ADD species varchar(100);
 CREATE TABLE owners (
     id SERIAL PRIMARY KEY,
     full_name varchar(100) NOT NULL,
-    Age INT
+    age INT
 );
 
 CREATE TABLE species (

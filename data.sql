@@ -54,13 +54,13 @@ UPDATE animals SET owner_id = 5 WHERE name IN ('Angemon','Boarmon');
 
 UPDATE owners SET full_name = 'Melody Pond' WHERE id = 4;
 
-INSERT INTO vets (name, age, date_of_graduation) VALUES ('William Tatcher', 45, '04-23-2000');
+INSERT INTO vets (name, age, date_of_graduation) VALUES ('William Tatcher', 45, '2000-04-23');
 
-INSERT INTO vets (name, age, date_of_graduation) VALUES ('Maisy Smith', 26, '01-17-2019');
+INSERT INTO vets (name, age, date_of_graduation) VALUES ('Maisy Smith', 26, '2019-01-17');
 
-INSERT INTO vets (name, age, date_of_graduation) VALUES ('Stephanie Mendez', 64, '06-08-1981');
+INSERT INTO vets (name, age, date_of_graduation) VALUES ('Stephanie Mendez', 64, '1981-05-04');
 
-INSERT INTO vets (name, age, date_of_graduation) VALUES ('Jack Harkness', 38, '06-08-2008');
+INSERT INTO vets (name, age, date_of_graduation) VALUES ('Jack Harkness', 38, '1981-06-08');
 
 INSERT INTO specialization (vets_id, species_id) VALUES (1, 1), (2, 1), (2, 2), (4, 2);
 

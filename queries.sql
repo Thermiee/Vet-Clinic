@@ -24,7 +24,7 @@ COMMIT;
 SELECT species from animals;
 
 BEGIN TRANSACTION;
-DELETE FROM animals
+DELETE FROM animals;
 SELECT COUNT(*) FROM ANIMALS;
 ROLLBACK;
 SELECT COUNT(*) FROM ANIMALS;
@@ -47,7 +47,7 @@ SELECT SUM(escape_attempts) FROM animals WHERE neutered = true;
 
 SELECT SUM(escape_attempts) FROM animals WHERE neutered = false;
 
-SELECT species, MIN(weight_kg), MAX(weight_kg) FROM animals GROUP BY species;
+SELECT species_id, MIN(weight_kg), MAX(weight_kg) FROM animals GROUP BY species_id;
 
 SELECT AVG(escape_attempts) FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31'; 
 

@@ -18,6 +18,13 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - GitHub: [Thermiee](https://github.com/Thermiee)
 - LinkedIn: [Emmanuel](https://www.linkedin.com/in/emmanuel-jolugbo/)
 
+👤 **KHALIL NASRI**
+
+- GitHub: [@NasKhalil](https://github.com/NasKhalil)
+- Twitter: [@KhalilNasri92](https://twitter.com/KhalilNasri92)
+- LinkedIn: [khalil-Nasri](https://www.linkedin.com/in/nasri-khalil-androdev/)
+- Email: khalil.nasri2021@gmail.com
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
